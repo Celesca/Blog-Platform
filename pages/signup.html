@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../asset/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../asset/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../asset/favicon-16x16.png">
+    <link rel="stylesheet" href="login.css">
+    <title>Celesca Blog</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container-fluid">
+
+      <!-- Navbar -->
+      <a class="navbar-brand text-white" href="../index.html"><i class="fa-solid fa-mountain-sun fa-2x mx-2"></i><span class="h3">Celesca Blog</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-center" aria-current="page" href="../index.html"><button class="btn btn-primary bg-transparent border-0 px-3">Home</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="create_blog.html"><button class="btn btn-primary bg-transparent border-0 px-3">Write</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="blog.html"><button class="btn btn-primary bg-transparent border-0 px-3">Blog</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="signup.html"><button class="btn btn-primary bg-transparent border-0 px-3 text-warning">Sign up</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="login.html"><button class="btn btn-primary bg-transparent border-0 px-3 text-warning">Login</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="login-container mt-3 pb-2 text-white">
+    <div class="container d-flex justify-content-center">
+        <form class="p-5 pb-4 bg-dark rounded-5">
+
+            <h5 class="text-center display-6 mb-3">Sign up</h5>
+            <div class="form-outline mb-4">
+                <input type="email" id="form2Example1" class="form-control" placeholder="ตัวอักษรใหญ่และเล็ก 6-8 ตัว"/>
+                <label class="form-label" for="form2Example1">Username</label>
+              </div>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form2Example1" class="form-control" />
+              <label class="form-label" for="form2Example1">Email address</label>
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form2Example2" class="form-control"/>
+              <label class="form-label" for="form2Example2">Password</label>
+            </div>
+
+            <div class="form-outline mb-4">
+                <input type="password" id="form2Example2" class="form-control" />
+                <label class="form-label" for="form2Example2">Re-enter Password</label>
+              </div>
+          
+            <div class="d-flex justify-content-center">
+            <!-- Submit button -->
+            <a href="profile.html"><button type="button" class="btn btn-primary btn-block mb-4">Sign up</button></a>
+            </div>
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p>มีไอดีอยู่แล้ว? <a href="login.html">เข้าสู่ระบบ</a></p>
+            </div>
+          </form>
+    </div>
+  </header>
+
+    <footer class="footer text-center bg-black pt-5 pb-1">
+      <div class="container">
+        <hr class="border-white"/>
+        <div>
+          <ul class="d-flex footer-list justify-content-lg-start flex-wrap">
+            <li class="h6"><a href="create_blog.html">Write</a></li>
+            <li class="h6 ms-3"><a href="blog.html">Blog</a></li>
+            <li class="h6 ms-3"><a href="profile.html">My Account</a></li>
+            <li class="h6 ms-3"><a href="profile.html">About us</a></li>
+          </ul>
+        </div>
+          <p class="text-white">Copyright &copy; Sawit Koseeyaumporn 2023</p>
+      </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Kanit', sans-serif;
+}
+
+.linktoblog {
+    text-decoration: none;
+    color: black;
+}
+
+.linktoblog-white {
+    text-decoration: none;
+    color: white;
+}
+
+.linktoprofile {
+    text-decoration: none;
+    color: black;
+}
+
+.linktoprofile-white {
+    text-decoration: none;
+    color: white;
+}
+
+:root {
+    --primary-bg-color: #3D619C;
+    --secondary-bg-color: #102533;
+    --third-bg-color: #163E4F;
+    --text-bg-color: rgb(239,75,76);
+    --yellow-color: #F3B916;
+    --dark-bg-color: #212529;
+}
+
+
+body {
+    background-color: var(--secondary-bg-color);
+}
+
+/* Navbar Section */
+
+.navbar-brand {
+    color: white;
+    text-shadow: 2px 2px var(--primary-bg-color);
+}
+
+.navbar-brand:hover {
+    cursor:pointer;
+}
+
+.navbar {
+    background-color: #133647;
+}
+
+.nav-item:hover {
+    background-color: var(--primary-bg-color);
+    border-radius: 5rem;
+    transition: 0.5s ease;
+}
+
+/* Header Section */
+.header {
+    background-image: url("./asset/river.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height:100vh;
+    padding-top: 5rem;
+}
+
+.main {
+    background-color: var(--dark-bg-color);
+}
+
+.Title {
+    text-shadow: 2px 2px black;
+}
+
+/* Account Section */
+.account {
+    position:absolute;
+    top:5rem;
+    right:2rem;
+}
+
+.account-list {
+    list-style: none;
+}
+
+.account-list li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+.account-list li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.carousel-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Search Bar Section */
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1); 
+}
+
+.search input{
+     height: 60px;
+     text-indent: 25px;
+     border: 2px solid #d6d4d4;
+}
+
+.search input:focus{
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .fa-magnifying-glass{
+    position: absolute;
+    top: 22px;
+    left: 16px;
+    z-index: 2;
+    color: black;
+}
+
+.search button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background-color: var(--primary-bg-color);
+    border-color: var(--secondary-bg-color);
+    color: white;
+}
+
+/* Carousel Section */
+
+.head-title {
+    color: var(--yellow-color);
+}
+
+.carousel .carousel-item {
+    height: 70vh;
+  }
+  
+.carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 70vh;
+      object-fit: cover;
+      opacity: 70%;
+      cursor:pointer;
+}
+
+.carousel-text {
+    text-shadow: 1.5px 1.5px black;
+}
+
+.carousel-text:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+/* Tag Section */
+
+.popular {
+    height: 35vh;
+    background-color: var(--dark-bg-color);
+}
+
+.popular-box a {
+    margin-left: 10px;
+}
+
+/* Blog Section */
+.blogs {
+    background-color: var(--dark-bg-color);
+}
+
+.blog-card {
+    margin: 0 auto;
+}
+
+.card-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--yellow-color);
+}
+
+.blog-img {
+    max-width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.blog-img:hover {
+    box-shadow: 0px 0px 5px #fff;
+    transition: box-shadow 0.2s linear;
+}
+
+.user-pic {
+    max-width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-name:hover {
+    cursor:pointer;
+    color: var(--yellow-color);
+}
+
+.second-button {
+    margin-left: 0.5rem;
+}
+
+/* Footer Section */
+.footer {
+    background-color: var(--dark-bg-color);
+}
+
+.footer-list {
+    margin:0;
+    padding:0;
+}
+
+.footer-list li {
+    list-style-type:none;
+    color: whitesmoke;
+    font-weight: normal;
+}
+
+.footer-list a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-list li:hover a , .footer-list li:hover {
+    cursor: pointer;
+    color: var(--yellow-color);
+    transition: color 0.2s linear;
+}
+
+/* Very Small - Medium */
+@media only screen and (max-width: 959px) {
+    .header {
+        background-position:10%;
+    }
+}
+
+/* Medium */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .user-pic {
+        max-height: 3rem;
+        max-width: 2.5rem;
+    }
+}
+
+/* Very small - small */
+@media only screen and (max-width: 767px) {
+    .carousel-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/*Small*/
+@media only screen and (min-width: 493px) and (max-width: 767px) {
+
+}
+
+/* Special Case*/
+@media only screen and (max-width: 575px) {
+    .footer-list {
+        display: flex;
+        justify-content: space-around !important;
+    }
+}
+
+/* Very small Device*/
+@media only screen and (max-width: 512px) {
+    .user-pic {
+        max-height: 2.5rem;
+        max-width: 2.5rem;
+    }
+
+    .user-box {
+        flex-direction: column;
+    }
+
+    .search-button {
+        max-width: 4.5rem;
+        font-size: 0.5rem;
+    }
+
+    .header {
+        background-position: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    .second-button {
+        margin-left: 0 !important;
+    }
+
+}
+

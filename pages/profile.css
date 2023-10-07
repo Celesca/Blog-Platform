@@ -1,0 +1,40 @@
+:root {
+    --primary-bg-color: #3D619C;
+    --secondary-bg-color: #102533;
+    --third-bg-color: #163E4F;
+    --text-bg-color: rgb(239,75,76);
+    --yellow-color: #F3B916;
+    --dark-bg-color: #212529;
+}
+
+.profile-header {
+    background-image: url("../asset/river.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 4rem;
+    background-color: rgba(0,0,0,7);
+}
+
+.profile-background {
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/25/10/46/krka-8274679_640.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-pic {
+    width: 25%;
+    border-radius: 10rem;
+    position: relative;
+    top: 5rem;
+}
+
+.follow:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 576px) {
+    .profile-pic {
+        width: 40%;
+    }
+} 

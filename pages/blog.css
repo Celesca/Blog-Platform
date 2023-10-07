@@ -1,0 +1,85 @@
+:root {
+    --primary-bg-color: #3D619C;
+    --secondary-bg-color: #102533;
+    --third-bg-color: #163E4F;
+    --text-bg-color: rgb(239,75,76);
+    --yellow-color: #F3B916;
+    --dark-bg-color: #212529;
+}
+
+/* Blog Section */
+
+.blog-header {
+    background-image: url("../asset/river.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 4rem;
+    background-color: rgba(0,0,0,7);
+}
+
+.blog-user-pic {
+    max-width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.comment-user-pic {
+    max-width: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.comment-text {
+    margin-left: 3.5rem;
+}
+
+.content-head {
+    font-size: 1.5rem;
+    color: var(--yellow-color);
+}
+
+.content {
+    font-size: 1.25rem;
+    line-height: 2.2rem;
+    text-align: justify;
+    margin:0;
+    text-indent: 2rem;
+}
+
+.follow:hover {
+    cursor:pointer;
+    color: var(--yellow-color);
+    text-decoration: underline;
+}
+
+/* Recommend Section */
+
+.recommend-box {
+    background-color: var(--dark-bg-color);
+}
+
+.card {
+    cursor:pointer;
+}
+
+.card:hover {
+    opacity: 0.9;
+    transition: opacity linear 0.3s;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        text-align: start;
+        line-height: 2.5rem;
+        font-size: 1.15rem;
+    }
+}
+
+@media only screen and (max-width: 346px) {
+    
+  .comment-text {
+    margin-left:0;
+  }
+
+}
