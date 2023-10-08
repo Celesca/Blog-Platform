@@ -24,7 +24,7 @@ git clone https://github.com/Celesca/Blog-Platform
 
 cd Blog-Platform
 ```
-Then open "index.html" with Live Server
+Then open "index.html" with Live Server or with your browser.
 
 ## Demo
 [Celesca Blog Platform](https://Celesca.github.io)
