@@ -1,4 +1,5 @@
 # Blog Platform
+![Blog Platform](https://github.com/Celesca/Celesca/blob/main/Project%20Picture/blog-platform.PNG)
 Greetings and welcome to my blog platform web application. The project is providing the prototype of blog platform.
 project was created by HTML, CSS and JavaScript. 
 In my opinion, This project can be improve by creating with React such as same pattern of blogs and profiles.
