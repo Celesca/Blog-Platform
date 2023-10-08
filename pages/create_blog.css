@@ -7,8 +7,13 @@
   --dark-bg-color: #212529;
 }
 
-.header {
-  height: 150vh !important;
+.create-blog-header {
+  background-image: url("../asset/river.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 4rem;
+  background-color: rgba(0,0,0,7);
 }
 
 .form-container {
@@ -82,3 +87,13 @@ border-color: var(--primary-bg-color);
     margin-top: 1rem;
   }
 }
+
+/* @media only screen and (max-height: 735px) {
+
+  .header {
+    height: 160vh !important;
+  }
+  .write-post {
+    margin-top: 0;
+  }
+} */
