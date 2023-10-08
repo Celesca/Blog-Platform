@@ -27,4 +27,5 @@ cd Blog-Platform
 Then open "index.html" with Live Server or with your browser.
 
 ## Demo
-[Celesca Blog Platform](https://Celesca.github.io)
+The Demo will be appear for a week. Thank you.
+[Blog Platform](https://folk-sawit.netlify.app/)
